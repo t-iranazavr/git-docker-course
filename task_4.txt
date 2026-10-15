@@ -1,0 +1,4 @@
+cd code-user
+git status
+git add index.html
+git commit --amend -m 'replace text'

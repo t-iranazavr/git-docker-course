@@ -1,0 +1,11 @@
+cd code-user
+git add -i
+patch
+1
+# Подтверждаем выбор нажатием Enter
+s
+y
+n
+status
+quit
+git commit -m '+2/-0'

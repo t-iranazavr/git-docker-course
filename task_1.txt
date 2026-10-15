@@ -1,0 +1,10 @@
+cd code-user
+git add . 
+git stash
+echo 'Hexlet is awesome!' > todo.md
+echo 'stash не трогает новые файлы, которые еще не добавлены в индекс.' >> hexlet.txt
+git add hexlet.txt
+git commit -m 'refactoring'
+git stash pop
+git add .
+git commit -m 'changes from stash'

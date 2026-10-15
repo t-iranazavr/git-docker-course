@@ -1,0 +1,3 @@
+cd code-user
+git log -p --oneline -- todo.md
+git switch --detach 7c2fcf8
